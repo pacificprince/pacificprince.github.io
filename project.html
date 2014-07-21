@@ -157,7 +157,7 @@ data.testing  &lt;-<span class="st"> </span>data.testing[, !(<span class="kw">co
  $ magnet_forearm_z    : num  476 473 469 469 473 478 470 474 476 473 ...
  $ classe              : Factor w/ 5 levels &quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...</code></pre>
 <h3 id="training-and-validation-sets">Training and Validation Sets</h3>
-<p>The original <em>training</em> set is further subdivided into <em>training</em> and <em>validation</em> sets for the purposes of modeling. The random number generator (RNG) state is (seed) is set to 12321. The <em>training</em> set is partitioned so as to contain 70% of the original data (13737 rows). The remainder of the data (5885 rows) is assigned to the <code>validation</code> set.</p>
+<p>The original <em>training</em> set is further subdivided into <em>training</em> and <em>validation</em> sets for the purposes of modeling. The random number generator (RNG) state (seed) is set to 12321. The <em>training</em> set is partitioned so as to contain 70% of the original data (13737 rows). The remainder of the data (5885 rows) is assigned to the <code>validation</code> set.</p>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">set.seed</span>(<span class="dv">12321</span>)
 
 <span class="kw">library</span>(caret)</code></pre>
